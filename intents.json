@@ -1,0 +1,84 @@
+{
+  "intents": [
+    {
+      "tag": "color",
+      "patterns": ["Which car model are we discussing?"],
+      "responses": ["Toyota Camry"]
+    }, 
+    {
+      "tag": "car_model",
+      "patterns": ["What is the color of the car?"],
+      "responses": ["Blue"]
+    },
+    {
+      "tag": "fuel_type",
+      "patterns": ["What is the fuel type of the car?"],
+      "responses": ["Gasoline"]
+    },
+    {
+      "tag": "price",
+      "patterns": ["What is the price of the car?"],
+      "responses": ["$30,000"]
+    },
+    {
+      "tag": "manufactured_year",
+      "patterns": ["In which year was the car manufactured?"],
+      "responses": ["2022"]
+    },
+    {
+      "tag": "engine_size",
+      "patterns": ["What is the engine size of the car?"],
+      "responses": ["2.5 liters"]
+    },
+    {
+      "tag": "horsepower",
+      "patterns": ["How much horsepower does the car have?"],
+      "responses": ["180 HP"]
+    },
+    {
+      "tag": "acceleration_time",
+      "patterns": ["What is the acceleration time from 0 to 60 mph?"],
+      "responses": ["8 seconds"]
+    },
+    {
+      "tag": "transmission",
+      "patterns": ["Is the car automatic or manual?"],
+      "responses": ["Automatic"]
+    },
+    {
+      "tag": "mileage",
+      "patterns": ["What is the mileage of the car?"],
+      "responses": ["30 miles per gallon"]
+    },
+    {
+      "tag": "safety_features",
+      "patterns": ["What safety features does the car have?"],
+      "responses": ["ABS, airbags, lane departure warning"]
+    },
+    {
+      "tag": "entertainment_features",
+      "patterns": ["What entertainment features does the car include?"],
+      "responses": ["Touchscreen infotainment system, Bluetooth"]
+    },
+    {
+      "tag": "internal_features",
+      "patterns": ["Tell me about the internal features of the car."],
+      "responses": ["Leather seats, climate control, navigation system"]
+    },
+    {
+      "tag": "external_features",
+      "patterns": ["What external features does the car have?"],
+      "responses": ["Alloy wheels, LED headlights, sunroof"]
+    },
+    {
+      "tag": "customer_rating",
+      "patterns": ["What is the customer rating for this car?"],
+      "responses": ["4.5 out of 5 stars"]
+    },
+    {
+      "tag": "units_sold_last_year",
+      "patterns": ["How many units of this car were sold last year?"],
+      "responses": ["15,000"]
+    }
+  ]
+}
